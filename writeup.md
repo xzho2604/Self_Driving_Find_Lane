@@ -14,8 +14,7 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
-![GitHub Logo](/solidWhiteCurve_find.jpg)
-Format: ![Alt Text](url)
+![alt text](/examples/grayscale.jpg)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 [image2]: ./solidWhiteCurve_find.jpg "WhiteCurve"
