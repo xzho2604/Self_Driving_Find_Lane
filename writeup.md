@@ -13,14 +13,11 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
 ![alt text](/examples/grayscale.jpg)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: ./solidWhiteCurve_find.jpg "WhiteCurve"
-[image3]: ./solidWhiteRight_find.jpg "WhiteRight"
-[image4]: ./solidYellowCurve2_find.jpg "YellowCurve"
-[image5]: ./whiteCarLaneSwitch_find.jpg "SolidWhite"
+![alt text](/solidWhiteCurve_find.jpg)
+![alt text](/solidWhiteRight_find.jpg)
+![alt text](/solidYellowCurve2_find.jpg)
+![alt text](/whiteCarLaneSwitch_find.jpg)
 
 
 ---
