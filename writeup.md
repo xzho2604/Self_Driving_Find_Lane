@@ -14,6 +14,8 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
+![GitHub Logo](/solidWhiteCurve_find.jpg)
+Format: ![Alt Text](url)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 [image2]: ./solidWhiteCurve_find.jpg "WhiteCurve"
@@ -29,11 +31,17 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 1.Using slope = (y2-y1)/(x2-x1) to find the slope of each segment of lines found by Hough Transformation
+
 2.We can then easily figure out that slope is < 0 it is on the left lane if it is > 0 it is one the right lane
+
 3.We could then use a reasonable range of slope for right lane and left lane respectively to include lines that one the right_lane =\[]  and on the left_lane= \[]
+
 4.We could use slope within \[-0.6,-0.9] as identifying points on the left lane and slope within\[0.5,0.7] as points on the right lane, for points that satfisfy the slope range will be stored in the right_lane and left_lane respectively
+
 5.Now we have all the right points that we need to construct the whole line on right and left lane.We could use the np.polyfit(right_lane_x,right_lane_y,1) to find out the best line that fit all the points on the right lane.
+
 6.Then we just need to find the intersection of the points of this line with top and bottom point of the area that we are interested in.
+
 7.We draw such two line left lane and right lane on the image
 
 
